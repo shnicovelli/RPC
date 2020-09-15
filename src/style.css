@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: #272635;
+  display: flex;
+  justify-content: center;
+  box-sizing: content-box;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.formStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #f0bcd4;
+  width: 280px;
+  padding: 20px;
+  border-radius: 20px;
+  display: none;
+}
+
+#idNom {
+  border-radius: 20px;
+  width: 100%;
+  height: 40px;
+  opacity: 50%;
+  border: 0;
+}
+
+#idChoix {
+  border-radius: 20px;
+  width: 100%;
+  height: 40px;
+  opacity: 50%;
+  border: 0;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+button {
+  border-radius: 20px;
+  width: 100%;
+  height: 40px;
+  border: 0;
+}
+.peau {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.blocP {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  background-color: #7fd8be;
+}
+
+.blocCPU {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  background-color: #d16d82;
+}
+
+.blocResultat {
+  display: flex;
+}
